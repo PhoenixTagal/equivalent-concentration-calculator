@@ -1,1 +1,1 @@
-# equivalent_concentration_calculator
+# equivalent-concentration-calculator
