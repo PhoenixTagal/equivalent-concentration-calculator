@@ -3,7 +3,7 @@
 
 class ChemicalWaste:
 
-    valid_tox_test = ['lc50 inh ',
+    valid_tox_test = ['lc50 inh',
                       'lc50 fish',
                       'ld50 dermal',
                       'ld50 oral']
@@ -13,4 +13,4 @@ class ChemicalWaste:
         self.type_of_tox_test = type_of_tox_test
         self.tox_test_result = tox_test_result
 
-        
+
