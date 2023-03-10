@@ -1,3 +1,4 @@
+"""Criteria for calculations in ChemicalWaste methods"""
 valid_tox_test = {'lc50 inh': [(0.02, 0.2), (0.2, 2), (2, 20), (20, 200)],
                   'lc50 fish': [(0.01, 0.1), (0.1, 1), (1, 10), (10, 100)],
                   'ld50 dermal': [(2, 20), (20, 200), (200, 2000), (2000, 20000)],

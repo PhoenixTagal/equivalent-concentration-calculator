@@ -2,8 +2,9 @@ from tox_eval_criteria import valid_tox_test, valid_percent_composition, tox_cla
 
 
 class ChemicalWaste:
-    # type_of_tox_test arg must be equal to a key from valid_tox_test dict
+
     def __init__(self, name, type_of_tox_test, tox_test_result, percent_composition):
+        """Construct ChemicalWaste object"""
         self.name = name
         self.type_of_tox_test = type_of_tox_test
         if self.type_of_tox_test not in valid_tox_test.keys():
@@ -14,6 +15,7 @@ class ChemicalWaste:
             raise TypeError('must input an integer between 0 - 100')
 
     def equivalent_concentration(self):
+        """Return equivalent concentration of chemical waste object"""
         evaluation_list = valid_tox_test[self.type_of_tox_test]
         criteria = []
         for thresh_holds in evaluation_list:
