@@ -16,8 +16,8 @@ class ChemicalWaste:
     # def equivalent_concentration(self):
     #     evaluation_list = valid_tox_test[self.type_of_tox_test]
     #     criteria = []
-    #     for i in evaluation_list:
-    #         criteria.append(i)
+    #     for thresh_holds in evaluation_list:
+    #         criteria.append(thresh_holds)
     #
     #     tox_cat = {'x': criteria[0][0],
     #                'a': criteria[0],

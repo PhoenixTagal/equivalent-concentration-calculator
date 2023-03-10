@@ -8,8 +8,8 @@ hcl = ChemicalWaste(name='hcl', type_of_tox_test='ld50 oral', tox_test_result=40
 data = hcl.equivalent_concentration()
 
 criteria = []
-for i in data:
-    criteria.append(i)
+for thresh_holds in data:
+    criteria.append(thresh_holds)
 
 tox_cat = {'x': criteria[0][0],
            'a': criteria[0],
