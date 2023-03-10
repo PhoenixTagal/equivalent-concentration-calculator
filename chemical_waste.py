@@ -42,6 +42,6 @@ class ChemicalWaste:
             print(f'{self.name} at this percent is not considered hazardous waste')
 
         eq_concentration = self.percent_composition / tox_magnitude
-        return eq_concentration
+        return f'Equivalent Concentration: {eq_concentration}'
 
             
