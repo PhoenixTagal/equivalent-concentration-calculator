@@ -8,7 +8,7 @@ class ChemicalWaste:
                       'ld50 dermal': [(2, 20), (20, 200), (200, 2000), (2000, 20000)],
                       'ld50 oral': [(0.5, 5), (5, 50), (50, 500), (500, 5000)]}
 
-    # concentration % must be int between 0-100
+    # percent composition must be an int between 0-100
     valid_percent_composition = list(range(101))
 
     def __init__(self, name, type_of_tox_test, tox_test_result, percent_composition):
