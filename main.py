@@ -17,7 +17,7 @@ class ChemicalWaste:
     # percent composition must be an int between 0-100
     valid_percent_composition = list(range(101))
 
-    # name arg must equal to a key from valid_tox_test dict
+    # name arg must be equal to a key from valid_tox_test dict
     def __init__(self, name, type_of_tox_test, tox_test_result, percent_composition):
         self.name = name
         self.type_of_tox_test = type_of_tox_test
