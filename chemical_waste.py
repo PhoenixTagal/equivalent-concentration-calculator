@@ -44,6 +44,19 @@ class ChemicalWaste:
             print(f'{self.name} at this percent is not considered hazardous waste')
 
         eq_concentration = self.percent_composition / tox_magnitude
-        return f'Equivalent Concentration: {eq_concentration}'
+        return eq_concentration
 
-            
+    def designate_waste(self):
+        """Return WA state toxicity designation"""
+        if self.equivalent_concentration() >= 1:
+            return f'Chemical Waste: {self.name} \nDesignation: EHW \nWaste code: WT01 \nEquivalent Concentration: {self.equivalent_concentration()}%'
+        elif self.equivalent_concentration() >= 0.001:
+            return f'Chemical Waste: {self.name} \nDesignation: DW \nWaste code: WT02 \nEquivalent Concentration: {self.equivalent_concentration()}%'
+        elif self.equivalent_concentration() < 0.001:
+            return f'Chemical Waste: {self.name} does not designate as dangerous waste'
+
+
+
+
+
+
