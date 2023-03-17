@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T18:23:27.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="G2eV36NaYBuYJS6_NwbV" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T18:42:48.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="F1oFv7mT2jUCP1OaMWLV" version="21.0.6" type="github">
   <diagram name="Page-1" id="bFWIs-3CNg-cBj2Cr1kF">
-    <mxGraphModel dx="2035" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3197" dy="1414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,13 +11,13 @@
           <mxGeometry x="40" y="40" width="1000" height="600" as="geometry" />
         </mxCell>
         <mxCell id="AimBy2MOZz1IobJSiMjq-11" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Chemical Waste Name:&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFF0D6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="360" height="40" as="geometry" />
+          <mxGeometry x="1270" y="60" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AimBy2MOZz1IobJSiMjq-19" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Input&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=#EDFDFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="50" width="590" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AimBy2MOZz1IobJSiMjq-142" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Type of Tox Test:&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFF0D6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="100" width="360" height="40" as="geometry" />
+          <mxGeometry x="50" y="105" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AimBy2MOZz1IobJSiMjq-143" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Input&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=#EDFDFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="100" width="590" height="40" as="geometry" />
@@ -41,7 +41,46 @@
           <mxGeometry x="415" y="270" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AimBy2MOZz1IobJSiMjq-150" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="370" y="105" width="30" height="30" as="geometry" />
+          <mxGeometry x="370" y="105" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-151" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F0F0F0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="40" width="600" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-152" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Input = name&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1167.5" y="105" width="585" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-153" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Chemical Name:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFB366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="50" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-154" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Chemical Waste Name:&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFF0D6;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-157" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Input = type_of_tox_test&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1167.5" y="215" width="585" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-158" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Type of Tox Test:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFB366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="160" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-160" value="" style="triangle;whiteSpace=wrap;html=1;rotation=90;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="162.5" width="30" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-161" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Input = tox_text_result&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1167.5" y="325" width="585" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-162" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Tox Text Results:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFB366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="270" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-163" value="&lt;i&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Input = percent_composition&lt;/font&gt;&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=#FFFFFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1167.5" y="435" width="585" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-164" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Percent Composition of Waste:&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=#FFB366;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="380" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-165" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Calculate&lt;/b&gt;&lt;/font&gt;" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.shaded_button;dx=10;fillColor=#5EC9FF;strokeColor=none;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="520" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AimBy2MOZz1IobJSiMjq-166" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;i&gt;self.designate_waste(self)&lt;/i&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="610" width="580" height="410" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
