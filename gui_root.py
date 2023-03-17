@@ -39,12 +39,11 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
                                                           height=40,
                                                           text='Type of Tox Test:')
         self.type_of_tox_test_label.grid(row=2, column=0)
-        self.type_of_tox_test_entry = customtkinter.CTkEntry(master=self,
+        self.type_of_tox_test_dropdown = customtkinter.CTkOptionMenu(master=self,
                                                           width=360,
                                                           height=40,
-                                                          placeholder_text='Choose from Drop Down',
-                                                          placeholder_text_color='grey')
-        self.type_of_tox_test_entry.grid(row=3)
+                                                          values=['lc50 inh', 'lc50 fish', 'ld50 dermal', 'ld50 oral'],)
+        self.type_of_tox_test_dropdown.grid(row=3)
 
         # tox test result config
         self.tox_test_result_label = customtkinter.CTkLabel(master=self,
