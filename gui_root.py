@@ -25,7 +25,7 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
                                                           width=360,
                                                           height=40,
                                                           text='Chemical Name:')
-        self.chemical_name_label.grid(row=0)
+        self.chemical_name_label.grid(row=0, pady=10)
         self.chemical_name_entry = customtkinter.CTkEntry(master=self,
                                                           width=360,
                                                           height=40,
@@ -76,11 +76,17 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
                                                         width=220,
                                                         height=60,
                                                         text='Calculate',
-                                                        corner_radius=10,)
+                                                        corner_radius=10)
         self.calculate_button.grid(row=8, pady=20)
-        
-        # textbox config
 
+        # textbox config
+        results_label = customtkinter.CTkLabel(master=self,
+                                               width=580,
+                                               height=410,
+                                               text='Calculation Results',
+                                               corner_radius=10,
+                                               fg_color='white')
+        results_label.grid(row=9, pady=20)
 
 
 
