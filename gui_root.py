@@ -13,7 +13,7 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
     def __init__(self):
         super().__init__()
 
-        self.geometry('600x1000')
+        self.geometry('600x900')
         self.title('Equivalent Concentration Calculator')
 
         self.grid_rowconfigure(10, weight=1)
@@ -62,7 +62,7 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
         self.percent_composition_label = customtkinter.CTkLabel(master=self,
                                                           width=360,
                                                           height=40,
-                                                          text='Percent Composition of Waste')
+                                                          text='Percent Composition of Waste:')
         self.percent_composition_label.grid(row=6, column=0)
         self.percent_composition_entry = customtkinter.CTkEntry(master=self,
                                                           width=360,
@@ -77,7 +77,10 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
                                                         height=60,
                                                         text='Calculate',
                                                         corner_radius=10,)
-        self.calculate_button.grid(row=8)
+        self.calculate_button.grid(row=8, pady=20)
+        
+        # textbox config
+
 
 
 
