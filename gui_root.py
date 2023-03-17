@@ -7,7 +7,7 @@ import customtkinter
 from chemical_waste import *
 
 customtkinter.set_appearance_mode('light')
-
+customtkinter.set_default_color_theme('GUI/custom_theme.json')
 
 class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
     def __init__(self):
@@ -42,7 +42,7 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
         self.type_of_tox_test_entry = customtkinter.CTkEntry(master=self,
                                                           width=360,
                                                           height=40,
-                                                          placeholder_text='Choose Tox Test from Drop Down',
+                                                          placeholder_text='Choose from Drop Down',
                                                           placeholder_text_color='grey')
         self.type_of_tox_test_entry.grid(row=3)
 
