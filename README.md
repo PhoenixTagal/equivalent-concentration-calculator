@@ -7,5 +7,5 @@ Calculations and threshold criteria are aligned to those stated in WAC 173-303-1
 
 **GUI Example**
 <p align="center">
-  <img src="https://github.com/PhoenixTagal/equivalent-concentration-calculator/blob/main/GUI/example_GUI.PNG"/>
+  <img src="https://github.com/PhoenixTagal/equivalent-concentration-calculator/blob/main/GUI/example_GUI.PNG" width="500" height="800"/>
 </p>
