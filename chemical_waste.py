@@ -7,15 +7,16 @@ class ChemicalWaste:
         """Construct ChemicalWaste object"""
         self.name = name
         self.type_of_tox_test = type_of_tox_test
-        if self.type_of_tox_test not in valid_tox_test.keys():
-            raise TypeError(f'must input one of the following: {valid_tox_test.keys()}')
+        # if self.type_of_tox_test not in valid_tox_test.keys():
+        #     raise TypeError(f'must input one of the following: {valid_tox_test.keys()}')
         self.tox_test_result = tox_test_result
         self.percent_composition = percent_composition
-        if self.percent_composition not in valid_percent_composition:
-            raise TypeError('must input an integer between 0 - 100')
+        # if self.percent_composition not in valid_percent_composition:
+        #     raise TypeError('must input an integer between 0 - 100')
 
     def equivalent_concentration(self):
-        """Return equivalent concentration of chemical waste object"""
+        """Return equivalent concentration of chemical waste object by determining the correct list of
+        thresholds by using referencing the value associated with the type of tox test provided. """
         evaluation_list = valid_tox_test[self.type_of_tox_test]
         criteria = []
         for thresh_holds in evaluation_list:

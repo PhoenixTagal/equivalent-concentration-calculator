@@ -9,6 +9,7 @@ from chemical_waste import *
 customtkinter.set_appearance_mode('light')
 customtkinter.set_default_color_theme('GUI/custom_theme.json')
 
+
 class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
     def __init__(self):
         super().__init__()
@@ -72,23 +73,27 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
         self.percent_composition_entry.grid(row=7, column=0)
 
         # calculate button config
-        self.calculate_button = customtkinter.CTkButton(master=self,
-                                                        width=220,
-                                                        height=60,
-                                                        text='Calculate',
-                                                        corner_radius=10)
-        self.calculate_button.grid(row=8, pady=20)
+        # self.calculate_button = customtkinter.CTkButton(master=self,
+        #                                                 width=220,
+        #                                                 height=60,
+        #                                                 text='Calculate',
+        #                                                 corner_radius=10,)
+        # self.calculate_button.grid(row=8, pady=20)
 
         # textbox config
-        results_label = customtkinter.CTkLabel(master=self,
+        self.results_label = customtkinter.CTkLabel(master=self,
                                                width=580,
                                                height=410,
                                                text='Calculation Results',
                                                corner_radius=10,
                                                fg_color='white')
-        results_label.grid(row=9, pady=20)
+        self.results_label.grid(row=9, pady=20)
 
 
 
-app = EquivalentConcentrationCalculatorGUI()
-app.mainloop()
+
+
+
+
+
+
