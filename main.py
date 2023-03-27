@@ -13,10 +13,10 @@ from tkinter import *
 
 
 def getinfo():
-    waste = ChemicalWaste(name=gui.chemical_name_entry,
-                          type_of_tox_test=gui.type_of_tox_test_dropdown,
-                          tox_test_result=gui.tox_test_result_entry.get,
-                          percent_composition=gui.percent_composition_entry)
+    waste = ChemicalWaste(name=gui.chemical_name_entry.get(),
+                          type_of_tox_test=gui.type_of_tox_test_dropdown.get(),
+                          tox_test_result=float(gui.tox_test_result_entry.get()),
+                          percent_composition=float(gui.percent_composition_entry.get()))
     return waste.designate_waste()
 
 
@@ -33,7 +33,7 @@ calculate_button = customtkinter.CTkButton(master=gui,
                                                 height=60,
                                                 text='Calculate',
                                                 corner_radius=10,
-                                           command=lambda: getinfo())
+                                           command=getinfo)
 calculate_button.grid(row=8, pady=20)
 
 
