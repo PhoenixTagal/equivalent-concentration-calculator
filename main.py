@@ -22,7 +22,7 @@ def calculate_button_function():
                           tox_test_result=float(result),
                           percent_composition=float(percent))
     designation = waste.designate_waste()
-    print(designation)
+    gui.results_label.configure(text=designation)
 
 
 # construct instance of GUI
@@ -36,5 +36,7 @@ calculate_button = customtkinter.CTkButton(master=gui,
                                            command=calculate_button_function)
 
 calculate_button.grid(row=8, pady=20)
+
+# gui.results_label.configure(text=calculate_button_function())
 
 gui.mainloop()
