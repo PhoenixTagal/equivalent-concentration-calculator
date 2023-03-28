@@ -77,7 +77,7 @@ class EquivalentConcentrationCalculatorGUI(customtkinter.CTk):
         #                                                 width=220,
         #                                                 height=60,
         #                                                 text='Calculate',
-        #                                                 corner_radius=10,)
+        #                                                 corner_radius=10)
         # self.calculate_button.grid(row=8, pady=20)
 
         # textbox config
