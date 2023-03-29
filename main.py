@@ -37,6 +37,4 @@ calculate_button = customtkinter.CTkButton(master=gui,
 
 calculate_button.grid(row=8, pady=20)
 
-# gui.results_label.configure(text=calculate_button_function())
-
 gui.mainloop()
