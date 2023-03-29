@@ -42,7 +42,7 @@ class ChemicalWaste:
         elif self.tox_test_result <= tox_cat['non-tox']:
             tox_magnitude = tox_class_magnitude['d']
         elif self.tox_test_result > tox_cat['non-tox']:
-            print(f'{self.name} at this percent is not considered hazardous waste')
+            tox_magnitude = 1000000000
 
         eq_concentration = self.percent_composition / tox_magnitude
         return eq_concentration
@@ -54,7 +54,7 @@ class ChemicalWaste:
         elif self.equivalent_concentration() >= 0.001:
             return f'Chemical Waste: {self.name} \nDesignation: DW \nWaste code: WT02 \nEquivalent Concentration: {self.equivalent_concentration()}%'
         elif self.equivalent_concentration() < 0.001:
-            return f'Chemical Waste: {self.name} does not designate as dangerous waste'
+            return f'Chemical Waste: {self.name} \nDoes not designate as \ndangerous waste at this concentration'
 
 
 
